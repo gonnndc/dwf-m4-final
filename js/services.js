@@ -33,7 +33,19 @@
 
 
     //BACKGROUND NAVBAR
-    navbar.classList.add('navbar__bg')
+
+    window.addEventListener("scroll", () => {
+        const limit = window.outerWidth > 769 ? 600 : 20
+        const currentScroll = window.pageYOffset;
+        if (currentScroll > limit) {
+            navbar.classList.add('navbar__bg')
+        }
+        if (currentScroll < limit) {
+            navbar.classList.remove('navbar__bg')
+        }
+
+    })
+
 
 
 

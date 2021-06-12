@@ -8,9 +8,9 @@ const NavbarComponent = (container) => {
             <i class="fas fa-times-circle navbar__menu--icon2"></i>
             
             <ul class="list">
-                    <li class="list__item"><a href="./portfolio.html">Portfolio</a></li>
-                    <li class="list__item"><a href="./services.html">Servicios</a></li>
-                    <li class="list__item"><a href="./contact.html">Contacto</a></li>
+                    <li class="list__item"><a href="/dwf-m4-final//portfolio.html">Portfolio</a></li>
+                    <li class="list__item"><a href="/dwf-m4-final//services.html">Servicios</a></li>
+                    <li class="list__item"><a href="/dwf-m4-final//contact.html">Contacto</a></li>
                 </ul>
             </div>`
 

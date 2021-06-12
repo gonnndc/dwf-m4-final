@@ -1,0 +1,11 @@
+.project__title{
+  text-align: center;
+  font-size: 35px;
+  color:#fafafa;
+}
+
+@media (min-width: 769px){ 
+  .project__title{
+    display: none;
+  }
+}

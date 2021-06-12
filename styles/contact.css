@@ -1,0 +1,31 @@
+.navbar {
+  position: static;
+  background-color: #141414;
+}
+
+@media (min-width: 769px) {
+  .navbar {
+    position: fixed;
+    background-color: transparent;
+  }
+
+  .navbar__menu .list .list__item:hover {
+    background-color: rgb(191, 197, 99);
+  }
+
+  .navbar__bg {
+    background-color: rgba(81, 97, 99, 1);
+  }
+
+  .contact {
+    height: 100vh;
+    background: rgb(244, 247, 86);
+    background: linear-gradient(
+      55deg,
+      rgba(244, 247, 86, 1) 0%,
+      rgba(193, 190, 95, 1) 25%,
+      rgba(81, 97, 99, 1) 66%,
+      rgba(50, 59, 60, 0.9808298319327731) 97%
+    );
+  }
+}

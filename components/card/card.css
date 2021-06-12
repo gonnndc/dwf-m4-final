@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 450px;
+}
+
+
+.card__image {
+  width: 200px;
+}
+
+.card__title {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.card__description {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}

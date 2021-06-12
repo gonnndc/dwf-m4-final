@@ -1,0 +1,34 @@
+.header {
+  background-image: url("../../static/images/bg-tech.jpg");
+  height: 100vh;
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 25px;
+}
+
+.header__title {
+  text-align: center;
+  color: #fafafa;
+}
+
+@media (min-width: 769px) {
+  .header__title {
+    font-size: 50px;
+  }
+}
+
+.desaparecer__title {
+  animation-duration: 0.5s;
+  animation-name: desaparecer;
+  animation-fill-mode: forwards;
+}
+
+@keyframes desaparecer {
+  to {
+    color: transparent;
+  }
+}
